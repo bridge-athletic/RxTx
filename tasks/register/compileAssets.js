@@ -3,7 +3,8 @@ module.exports = function (grunt) {
 		'bower:install',
 		'clean:dev',
 		'jst:dev',
-		'less:dev',
+    'sass:dev',
+		//'less:dev',
 		'copy:dev',
 		'coffee:dev'
 	]);

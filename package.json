@@ -35,7 +35,8 @@
   },
   "author": "rockfakie",
   "license": "",
-  "devDependencies": {    
-    "sails-generate-bower": "0.0.2"
+  "devDependencies": {
+    "sails-generate-bower": "0.0.2",
+    "grunt-contrib-sass": "~0.8.1"
   }
 }
