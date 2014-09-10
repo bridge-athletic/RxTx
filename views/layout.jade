@@ -1,5 +1,5 @@
 doctype html
-html
+html(ng-app="ngBoilerplate" ng-controller="AppCtrl")
   head
     title= title
 
@@ -19,7 +19,15 @@ html
     // SCRIPTS
     script(src="/vendor/jquery/jquery.js")
     script(src="/vendor/angular/angular.js")
+    script(src="/vendor/angular-ui-router/angular-ui-router.js")
+    script(src="/vendor/angular-bootstrap/ui-bootstrap-tpls.js")
     script(src="/vendor/bootstrap-sass/bootstrap.js")
     script(src="/js/dependencies/sails.io.js")
+    script(src="/app/about/about.js")
+    script(src="/app/app.js")
+    script(src="/app/home/home.js")
+    script(src="/app/templates-app.js")
+    script(src="/common/placeholders/angular-placeholders-0.0.1-SNAPSHOT.min.js")
+    script(src="/common/templates-common.js")
     // SCRIPTS END
 

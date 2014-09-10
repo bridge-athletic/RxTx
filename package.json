@@ -23,7 +23,9 @@
     "validator": "~3.18.0",
     "passport-local": "~1.0.0",
     "passport-facebook": "~1.0.3",
-    "bcrypt": "~0.8.0"
+    "bcrypt": "~0.8.0",
+    "lodash": "~2.4.1",
+    "grunt-html2js": "~0.2.8"
   },
   "name": "RxTx",
   "private": true,

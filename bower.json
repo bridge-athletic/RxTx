@@ -8,7 +8,9 @@
   ],
   "dependencies": {
     "angular": "~1.2.24",
-    "bootstrap-sass": "~3.0.2"
+    "bootstrap-sass": "~3.0.2",
+    "angular-ui-router": "~0.2.11",
+    "angular-bootstrap": "~0.11.0"
   },
   "name": "RxTx",
   "version": "0.0.0",
