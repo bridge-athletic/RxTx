@@ -68,7 +68,7 @@ config/local.js
 
 node_modules
 bower_components
-
+assets/vendor
 
 
 
@@ -116,3 +116,7 @@ npm-debug.log
 nbproject
 .idea
 .node_history
+
+
+# Add the www build directory
+www

@@ -6,7 +6,10 @@
     "test",
     "tests"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2.24"
+  },
   "name": "RxTx",
   "version": "0.0.0",
   "author": "rockfakie",
