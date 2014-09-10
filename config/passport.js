@@ -20,6 +20,18 @@ module.exports.passport = {
     strategy: require('passport-local').Strategy
   },
 
+  facebook: {
+    name: 'Facebook',
+    protocol: 'oauth2',
+    strategy: require('passport-facebook').Strategy,
+    options: {
+      clientID: 'your-client-id',
+      clientSecret: 'your-client-secret'
+    }
+  }
+
+
+/*
   twitter: {
     name: 'Twitter',
     protocol: 'oauth',
@@ -39,21 +51,12 @@ module.exports.passport = {
       clientSecret: 'your-client-secret'
     }
   },
-
-  facebook: {
-    name: 'Facebook',
-    protocol: 'oauth2',
-    strategy: require('passport-facebook').Strategy,
-    options: {
-      clientID: 'your-client-id',
-      clientSecret: 'your-client-secret'
-    }
-  },
-
+  
   google: {
     name: 'Google',
     protocol: 'openid',
     strategy: require('passport-google').Strategy
   }
+  */
 
 };

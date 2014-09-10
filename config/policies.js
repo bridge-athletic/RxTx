@@ -17,7 +17,9 @@
  */
 
 
-module.exports.policies = {
+module.exports.policies = {  
+
+  '*': [ 'passport' ]
 
   /***************************************************************************
   *                                                                          *
