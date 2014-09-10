@@ -37,6 +37,7 @@
   "license": "",
   "devDependencies": {
     "sails-generate-bower": "0.0.2",
-    "grunt-contrib-sass": "~0.8.1"
+    "grunt-contrib-sass": "~0.8.1",
+    "sails-generate-auth": "~0.1.6"
   }
 }
