@@ -32,13 +32,9 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'homepage'
-  },
+  '/': 'IndexController.index',
 
-  '/home': {
-    view: 'homepage'
-  },
+  '/ng/*' : 'IndexController.index',
 
   /***************************************************************************
   *                                                                          *
@@ -61,5 +57,4 @@ module.exports.routes = {
   'get /auth/:provider': 'AuthController.provider',
   'get /auth/:provider/callback': 'AuthController.callback',
   'get /auth/:provider/:action': 'AuthController.callback'
-  
 };

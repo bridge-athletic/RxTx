@@ -7,18 +7,9 @@ angular.module( 'ngBoilerplate', [
 ])
 
 .config( function myAppConfig ( $stateProvider, $urlRouterProvider, $locationProvider ) {
-  //$urlRouterProvider.otherwise( '/home' );
   
-  $urlRouterProvider.otherwise(function ($injector, $location) {
-    //console.log($location.$$url);
-    
-    if ($location.$$url === '/') {
-      window.location = '/home';
-    } else {
-      // pass through to let the web server handle this request
-      window.location = $location.$$absUrl;
-    }
-  });
+  $urlRouterProvider.otherwise( '/ng/home' );
+  
   $locationProvider.html5Mode(true);
 })
 
