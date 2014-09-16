@@ -56,7 +56,8 @@ var jsFilesToInject = [
 // for information on customizing and installing new tasks.
 var templateFilesToInject = [
   //'templates/**/*.html'
-  'app/**/*.tpl.html'
+  'app/**/*.tpl.html',
+  'app/**/*.tpl.jade'
 ];
 
 
