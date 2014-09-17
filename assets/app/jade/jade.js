@@ -4,7 +4,7 @@ angular.module( 'ngBoilerplate.jade', [
   'ui.bootstrap'
 ])
 
-.config(function config( $stateProvider ) {
+.config(['$stateProvider', function config( $stateProvider ) {
   $stateProvider.state( 'jade', {
     url: '/ng/jade',
     views: {
@@ -15,15 +15,15 @@ angular.module( 'ngBoilerplate.jade', [
     },
     data:{ pageTitle: 'What is It?' }
   });
-})
+}])
 
-.controller( 'JadeCtrl', function JadeCtrl( $scope ) {
+.controller( 'JadeCtrl', ['$scope', function JadeCtrl( $scope ) {
   // This is simple a demo for UI Boostrap.
   $scope.dropdownDemoItems = [
     "The first choice!",
     "And another choice for you.",
     "but wait! A third!"
   ];
-})
+}])
 
 ;
