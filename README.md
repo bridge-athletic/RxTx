@@ -1,20 +1,22 @@
 # RxTx
 
-This web application uses:  
+This is a seed web application built on top of node.js and angular.js. These are the salient features:  
 
-* [Sails.js](http://sailsjs.org)
-* [Angular.js](http://angular.org)
-* [Redis](http://???)
-* [Elastic Search](http://????)
-* [MYSQL](???)
-* [MongoDB](???)
-* [D3.js](http://d3.org)
+------  
 
-## Setup Instructions
+**[Sails.js](http://sailsjs.org)**  
+Used as a server-side MVC framework and manages manages http routing, access control, and an ORM for persistent data management.  
 
-1. Install the latest version of sails globally 
-    `npm install -g sails`
+**[Grunt](http://gruntjs.com/)**  
+Build System  
 
+**[Passport](http://passportjs.org/)**  
+Authentication  
 
+**[Angular.js](http://angular.org)**  
+Client side MVC  
 
+**[ngbp](http://joshdmiller.github.io/ng-boilerplate/#/home)**  
+Client code follows the ng-boilerplate directory structure
 
+------
