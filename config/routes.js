@@ -33,8 +33,10 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': 'IndexController.index',
+  '/home' : 'IndexController.index',
+  '/about' : 'IndexController.index',
+  '/jade' : 'IndexController.index',
 
-  '/ng/*' : 'IndexController.index',
 
   /***************************************************************************
   *                                                                          *

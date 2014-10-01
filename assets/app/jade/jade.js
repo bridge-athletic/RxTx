@@ -6,7 +6,7 @@ angular.module( 'ngBoilerplate.jade', [
 
 .config(['$stateProvider', function config( $stateProvider ) {
   $stateProvider.state( 'jade', {
-    url: '/ng/jade',
+    url: '/jade',
     views: {
       "main": {
         controller: 'JadeCtrl',

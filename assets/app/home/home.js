@@ -23,7 +23,7 @@ angular.module( 'ngBoilerplate.home', [
  */
 .config(['$stateProvider', function( $stateProvider ) {
   $stateProvider.state( 'home', {
-    url: '/ng/home',
+    url: '/home',
     views: {
       "main": {
         controller: 'HomeCtrl',

@@ -9,7 +9,7 @@ angular.module( 'ngBoilerplate', [
 
 .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function myAppConfig ( $stateProvider, $urlRouterProvider, $locationProvider ) {
   
-  $urlRouterProvider.otherwise( '/ng/home' );
+  $urlRouterProvider.otherwise( '/home' );
   
   $locationProvider.html5Mode(true);
 }])
