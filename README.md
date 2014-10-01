@@ -26,12 +26,16 @@ Steps to run locally
 
 **1.** Clone the repo and change into directory:  
 ```
-git clone <Repository URI>
+git clone https://github.com/bridge-athletic/RxTx.git
 cd RxTx
 ```  
 **2.** Install global dependencies:  
 ```
+// Sails.js
 npm install -g sails
+
+// SASS
+sudo gem install sass
 ```
 **3.** Install Node packages:  
 ```
