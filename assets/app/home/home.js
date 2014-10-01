@@ -27,7 +27,7 @@ angular.module( 'ngBoilerplate.home', [
     views: {
       "main": {
         controller: 'HomeCtrl',
-        templateUrl: 'home/home.tpl.html'
+        templateUrl: 'home/home.tpl.jade'
       }
     },
     data:{ pageTitle: 'Home' }
